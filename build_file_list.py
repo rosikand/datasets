@@ -2,7 +2,9 @@
 File: build_file_list.py
 ------------------
 Simple script which scrapes all of the image raw urls 
-from the specified directory and wrirte them to a file. 
+from the specified directory and wrirte them to a file.
+API: 
+$ python3 build_file_list.py {dataset_directory} {extension} (optional) 
 """
 
 import os
