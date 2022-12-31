@@ -9,6 +9,7 @@ import os
 from glob import glob
 import sys
 
+
 def get_file_list(dirpath, extension=None):
     """
     Builds a list of files in the specified directory.
